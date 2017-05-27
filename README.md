@@ -1,6 +1,6 @@
 # CVResources
 ## 通用库/General Library
-* OpenCV
+* ==OpenCV==  
 无需多言。
 * RAVL
 Recognition And Vision Library. 线程安全。强大的IO机制。包含AAM。
