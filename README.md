@@ -1,4 +1,5 @@
-# CVResources
+# 计算机视觉相关库和资源
+
 ## 通用库/General Library
 * OpenCV    
 无需多言。
