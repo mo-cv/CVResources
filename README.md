@@ -7,93 +7,93 @@ Recognition And Vision Library. 线程安全。==强大==的IO机制。包含AAM
 * CImg  
 很酷的一个图像处理包。整个库只有一个头文件。包含一个基于PDE的光流算法。
 ## 图像，视频IO/Image, Video IO
-### FreeImage
-### DevIL
-### ImageMagick
-### FFMPEG
-### VideoInput
-### portVideo
-AR相关/Augmented Reality
-ARToolKit
+* FreeImage
+* DevIL
+* ImageMagick
+* FFMPEG
+* VideoInput
+* portVideo
+## AR相关/Augmented Reality
+* ARToolKit  
 基于Marker的AR库
-ARToolKitPlus
+* ARToolKitPlus  
 ARToolKit的增强版。实现了更好的姿态估计算法。
-PTAM
+* PTAM  
 实时的跟踪、SLAM、AR库。无需Marker，模板，内置传感器等。
-BazAR
+* BazAR  
 基于特征点检测和识别的AR库。
-局部不变特征/Local Invariant Feature
-VLFeat
+## 局部不变特征/Local Invariant Feature
+* VLFeat  
 目前最好的Sift开源实现。同时包含了KD-tree，KD-Forest，BoW实现。
-Ferns
+* Ferns  
 基于Naive Bayesian Bundle的特征点识别。高速，但占用内存高。
-SIFT By Rob Hess
+* SIFT By Rob Hess  
 基于OpenCV的Sift实现。
-目标检测/Object Detection
-AdaBoost By JianXin.Wu
+## 目标检测/Object Detection
+* AdaBoost By JianXin.Wu  
 又一个AdaBoost实现。训练速度快。
-行人检测 By JianXin.Wu
+* 行人检测 By JianXin.Wu  
 基于Centrist和Linear SVM的快速行人检测。
-（近似）最近邻/ANN
-FLANN
+## （近似）最近邻/ANN
+* FLANN  
 目前最完整的（近似）最近邻开源库。不但实现了一系列查找算法，还包含了一种自动选取最快算法的机制。
-ANN
+* ANN  
 另外一个近似最近邻库。
-SLAM & SFM
-SceneLib [LGPL]
+## SLAM & SFM  
+* SceneLib [LGPL]  
 monoSLAM库。由Androw Davison开发。
-图像分割/Segmentation
-SLIC Super Pixel
+## 图像分割/Segmentation
+* SLIC Super Pixel  
 使用Simple Linear Iterative Clustering产生指定数目，近似均匀分布的Super Pixel。
-目标跟踪/Tracking
-TLD
+## 目标跟踪/Tracking
+* TLD  
 基于Online Random Forest的目标跟踪算法。
-KLT
+* KLT  
 Kanade-Lucas-Tracker
-Online boosting trackers
+* Online boosting trackers  
 Online Boosting Trackers
-直线检测/Line Detection
-DSCC
+## 直线检测/Line Detection
+* DSCC  
 基于联通域连接的直线检测算法。
-LSD [GPL]
+* LSD [GPL]  
 基于梯度的，局部直线段检测算子。
-指纹/Finger Print
-pHash [GPL]
+## 指纹/Finger Print
+* pHash [GPL]  
 基于感知的多媒体文件Hash算法。（提取，对比图像、视频、音频的指纹）
-视觉显著性/Visual Salience
-Global Contrast Based Salient Region Detection
+## 视觉显著性/Visual Salience
+* Global Contrast Based Salient Region Detection  
 Ming-Ming Cheng的视觉显著性算法。
-FFT/DWT
-FFTW [GPL]
+## FFT/DWT
+* FFTW [GPL]  
 最快，最好的开源FFT。
-FFTReal [WTFPL]
+* FFTReal [WTFPL]  
 轻量级的FFT实现。许可证是亮点。
-音频处理/Audio processing
-STK [Free]
+## 音频处理/Audio processing
+* STK [Free]  
 音频处理，音频合成。
-libsndfile [LGPL]
+* libsndfile [LGPL]  
 音频文件IO。
-libsamplerate [GPL ]
+* libsamplerate [GPL ]  
 音频重采样。
-小波变换
-快速小波变换（FWT）
-FWT
-BRIEF: Binary Robust Independent Elementary Feature 一个很好的局部特征描述子，里面有FAST corner + BRIEF实现特征点匹配的DEMO：http://cvlab.epfl.ch/software/brief/
-http://code.google.com/p/javacv
+## 小波变换
+* 快速小波变换（FWT）  
+FWT  
+BRIEF: Binary Robust Independent Elementary Feature 一个很好的局部特征描述子，里面有FAST corner + BRIEF实现特征点匹配的DEMO：  http://cvlab.epfl.ch/software/brief/
+  http://code.google.com/p/javacv  
 
-Java打包的OpenCV, FFmpeg, libdc1394, PGR FlyCapture, OpenKinect, videoInput, and ARToolKitPlus库。可以放在Android上用~
+Java打包的OpenCV, FFmpeg, libdc1394, PGR FlyCapture, OpenKinect, videoInput, and ARToolKitPlus库。可以放在Android上用~  
  
-libHIK,HIK SVM，计算HIK SVM跟Centrist的Lib。http://c2inet.sce.ntu.edu.sg/Jianxin/projects/libHIK/libHIK.htm
+libHIK,HIK SVM，计算HIK SVM跟Centrist的Lib。http://c2inet.sce.ntu.edu.sg/Jianxin/projects/libHIK/libHIK.htm  
  
-一组视觉显著性检测代码的链接：http://cg.cs.tsinghua.edu.cn/people/~cmm/saliency/
+一组视觉显著性检测代码的链接：http://cg.cs.tsinghua.edu.cn/people/~cmm/saliency/  
 
 
-介绍n款计算机视觉库/人脸识别开源库/软件
-计算机视觉库 OpenCV
+## 介绍n款计算机视觉库/人脸识别开源库/软件
+* 计算机视觉库 OpenCV  
 OpenCV是Intel®开源计算机视觉库。它由一系列 C 函数和少量 C++ 类构成，实现了图像处理和计算机视觉方面的很多通用算法。 OpenCV 拥有包括 300 多个C函数的跨平台的中、高层 API。它不依赖于其它的外部库——尽管也可以使用某些外部库。 OpenCV 对非商业...
-人脸识别 faceservice.cgi
+* 人脸识别 faceservice.cgi  
 faceservice.cgi 是一个用来进行人脸识别的 CGI 程序， 你可以通过上传图像，然后该程序即告诉你人脸的大概坐标位置。faceservice是采用 OpenCV 库进行开发的。
-OpenCV的.NET版 OpenCVDotNet
+* OpenCV的.NET版 OpenCVDotNet  
 OpenCVDotNet 是一个 .NET 对 OpenCV 包的封装。
 人脸检测算法 jViolajones
 jViolajones是人脸检测算法Viola-Jones的一个Java实现，并能够加载OpenCV XML文件。 示例代码：http://www.oschina.net/code/snippet_12_2033
