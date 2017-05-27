@@ -1,10 +1,10 @@
 # CVResources
 ## 通用库/General Library
-### OpenCV
+* OpenCV
 无需多言。
-### RAVL
+* RAVL
 Recognition And Vision Library. 线程安全。强大的IO机制。包含AAM。
-### CImg
+* CImg
 很酷的一个图像处理包。整个库只有一个头文件。包含一个基于PDE的光流算法。
 ## 图像，视频IO/Image, Video IO
 ### FreeImage
